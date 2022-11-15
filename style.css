@@ -1,0 +1,84 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;    
+    color: seashell;
+    background-color: black;
+}
+*{
+    color: seashell;
+    opacity: 0.9;
+}
+main{
+
+    opacity: 0.9;
+}
+#logo{
+    height: 50px;
+    margin-left: 10px;
+    color: seashell;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    width:100%;
+    top: 0;
+    left: 0;
+    height: 69px;
+}
+#header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 10px 0px 0px;
+}
+.navbar{
+    font-size: 22px;    
+}
+.navbar > li {
+    display: inline;
+    
+}
+#top{
+
+    display:flex;
+    justify-content: center;
+
+}
+#background{
+    padding-top: 72px;
+    height: 700px;
+    width: 1200px;
+
+    object-fit: cover;
+}
+#mid{
+    width: 1000px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#image-gallery li img{
+    height:200px;
+    width: 300px;
+    
+
+}
+#image-gallery li{
+    list-style: none;
+
+  }
+#image-gallery{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+#teaofthemonth{
+    justify-content: center;
+
+  }
+.card{
+    margin: 10px;
+}
