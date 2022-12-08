@@ -4,6 +4,10 @@ body{
     color: seashell;
     background-color: black;
 }
+background{
+    display:flex;
+    justify-content: center;
+}
 *{
     color: seashell;
     opacity: 0.9;
@@ -37,48 +41,102 @@ header{
 }
 .navbar > li {
     display: inline;
-    
 }
 #top{
-
     display:flex;
     justify-content: center;
-
+}
+#mid{
+    display: flex;
+    justify-content: center;
 }
 #background{
     padding-top: 72px;
     height: 700px;
     width: 1200px;
-
     object-fit: cover;
-}
-#mid{
-    width: 1000px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
 }
 #image-gallery li img{
     height:200px;
     width: 300px;
-    
-
 }
 #image-gallery li{
     list-style: none;
-
   }
 #image-gallery{
     display: flex;
     width: 1000px;
     flex-wrap: wrap;
     justify-content: center;
-
   }
-#teaofthemonth{
+#midtitle{
+    display: flex;
     justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
   }
 .card{
     margin: 10px;
+    display: flex;
+}
+#topbanner{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 300px;
+    background:rgb(0, 0, 0);
+}
+.heading{
+    margin: 10px;
+}
+#locationsection{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 500px;
+    width: 1200px;
+    background-image: url("Locations.jpg");
+}
+#locationcards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#locationcard{
+    background-color: black;
+    margin: 10px;
+    padding: 0px 50px 0px 50px;
+    width: 300px;
+    opacity: 1;
+}
+#locations{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#bottom{
+    display: flex;
+    justify-content: center;
+}
+.locationtitle{
+    font-weight: 700;
+}
+
+#contact{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5   px;
+    
+  
+}
+#footer{
+    margin-left: 20px;
 }
